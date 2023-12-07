@@ -215,7 +215,7 @@ export class FingerprintInjector {
             overrideInstancePrototype(window.navigator, navigatorProps);
 
             overrideInstancePrototype(window.screen, newScreen);
-            overrideWindowDimensionsProps(windowScreenProps);
+            // overrideWindowDimensionsProps(windowScreenProps);
             overrideDocumentDimensionsProps(documentScreenProps);
 
             overrideInstancePrototype(window.history, { length: historyLength });
